@@ -1,0 +1,35 @@
+
+.item1 {
+  grid-area: header;
+  background-color: greenyellow;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.item2 {
+  grid-area: main;
+  background-color: yellow;
+  height: 70vh;}
+.item3 {
+  height: 70vh;
+  grid-area: sidebar;
+  background-color: tomato;
+}
+.item4 {
+  grid-area: footer;
+}
+p {
+    padding:0 10px;
+}
+body {
+    margin: 0;
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "main main main sidebar"
+    "footer footer footer footer";
+}
