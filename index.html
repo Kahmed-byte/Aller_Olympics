@@ -5,26 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" href="bilder/OL-Ringer.png" type="image/icon type">
     <title>OL</title>
 </head>
 <body>
-    <header class="item1">
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Events</li>
-                <li>Contact</li>
-            </ul>
+    <header class="header">
+        <nav class="navbar navbar-style">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                        <span class="icon-bar"> </span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href=""><img class="logo" src="logo/OlympiskeLeker.png" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="micon">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#yellow">Ski</a></li>
+                        <li><a href="#red">Basketball</a></li>
+                        <li><a href="#blue">Svømming</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>De olympiske leker</h1>
+                    <p>De olympiske leker er en multisportkonkurranse som arrangeres hvert fjerde år. 
+                        Opprinnelig ble de holdt i det gamle Hellas, men ble blåst til liv igjen av franskmannen 
+                        baron Pierre de Coubertin på slutten av det 19. århundre. Tidligere ble vinter- og sommerlekene 
+                        avholdt samme år, men 
+                        siden 1994 har det gått to år mellom hver gang det ble arrangert olympiske leker, da henholdsvis
+                         som vinter- og sommerleker</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="bilder/OL-Ringer.png" class="img-responsive">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 id="yellow">Ski</h1>
+                    <p>Skiidrett omfatter en rekke idretter som hovedsakelig foregår på vinterstid, bruk av ski er et sentralt moment i idretten. En ski er et redskap som kan brukes som et fremkomstmiddel til bruk på snø. Skiene har trolig vært i bruk i tusenvis av år, i vinterlige/alpine miljøer. Vanligvis går konkurransene ut på å komme seg fortest fra et punkt til et annet, men det kan også gå ut på å få best mulig stilkarakterer, gitt av flere dommere. <br>
+                        De norske skiløperkompaniene på 1700-tallet utviklet konkurranseidretten. Det ble arrangert konkurranser for å skape gode soldater på ski, det var viktig at soldatene var utholdende, at de kunne hoppe over hinder og skyte på ski i nedoverbakke. De ble trent opp i dette, som i dag er blitt disiplinene langrenn, skihopp og skiskyting. <br> 
+                        Den norske offiseren Henrik Angell opprettet den først skiskolen i Montenegro og medvirket til opprettelsen av den første skiskolen i de franske alpene i 1903.
+                    </p>
+                </div>
+                <div class="col-sm-6" id="ski">
+                    <img src="bilder/vinterSport.png" class="img-responsive">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 id="red">Basketball</h1>
+                    <p>Basketball eller basket er en lagsport der to lag, bestående av fem spillere, prøver å score poeng mot hverandre ved å kaste en ball gjennom en ring. Dette må skje i tråd med reglene som er forhåndsbestemt før spillet starter. Spillet ble oppfunnet av canadieren James Naismith.</p>
+                    <p>Poeng scores ved at en spiller kaster (skyter) ballen ovenfra og ned gjennom en ring som er 10 fot (3,048 m) over bakken. Laget med mest poeng når kampen er over vinner. Kampen trenger ikke nødvendigvis å være over da de fire periodene er ferdigspilt ettersom det vil legges til ekstraperioder dersom stillingen er lik etter ordinær tid.
+
+                        Ballen kan flytte seg ved at en spiller spretter den rundt, eller den kan skifte innehaver ved en sentring. I tillegg kan den trille eller sprette rundt om på banen. Det er likevel regler for hvordan ballen kan forflytte seg.
+                        
+                        Gjennom tiden har basketball utviklet seg gjennom mange forskjellige skyte-, sentre- og dribleteknikker. Det samme gjelder også for posisjoner og taktikker. Selv om reglene i organisert basketball er nøye kontrollert, finnes det forskjellige regler rundt om i verden. Blant annet har både collegebasketball og FIBA andre regler enn den amerikanske NBA-ligaen. I enkelte land er basketball også en populær sport for tilskuere, men dette er ikke tilfellet i Skandinavia, til tross for Ammerud Baskets forsøk på å få til nettopp dette ved å slå seg sammen med Vålerengens Idrettsforening i 2002.</p>
+                </div>
+                <div class="col-sm-6" id="basketball">
+                    <img src="bilder/basketball.png" class="img-responsive">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 id="blue">Svømming</h1>
+                    <p>Svømming er en av verdens største sporter. Svømming er teknisk sett i hovedsak en individuell sport, der formålet er å bevege seg over ulike distanser i vann på kortest mulig tid. Det er flere ulike teknikker som kan nyttes i konkurranser, og konkurransesvømming er regulert i et internasjonalt regelverk bestemt av Federation Internationale de Natation Amateur (FINA).[1] Svømming er først og fremst en utholdenhetsidrett, men hastigheten avhenger også av styrke i armer og bein, smidighet og koordinasjon.[2]</p>
+                    <p>I hver øvelse på et svømmestevne er svømmerne sortert etter påmeldingstid. Svømmere uten påmeldningstid svømmer i de første heatene, etterfulgt av de med svakest påmeldingstid. De beste svømmerne svømmer i de siste heatene. I hvert heat er også svømmerne sortert etter tid. De raskeste (best påmeldingstid) svømmerne svømmer i de midterste banene.</p>
+                </div>
+                <div class="col-sm-6" id="svømming">
+                    <img src="bilder/svømming.png" class="img-responsive">
+                </div>
+            </div>
+        </div>
     </header>
-    <main class="item2">
-        <p>Olympics</p>
-    </main>
-    <div class="item3">
-        <p>Event</p>
-    </div>
-    <footer class="item4">
-        <p>Contact</p>
-    </footer>
 </body>
 </html>

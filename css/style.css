@@ -1,35 +1,38 @@
-
-.item1 {
-  grid-area: header;
-  background-color: greenyellow;
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 100vh;
+}
+.navbar-style {
+  box-shadow: 0 5px 10px #efefef;
+  text-transform: uppercase;
+}
+.logo {
+  height: 48px;
+}
+.icon-bar {
+  background-color: black;
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style-type: none;
+#yellow {
+  color: rgb(243, 243, 1);
 }
-.item2 {
-  grid-area: main;
-  background-color: yellow;
-  height: 70vh;}
-.item3 {
-  height: 70vh;
-  grid-area: sidebar;
-  background-color: tomato;
+#vinter {
+  padding: 30px;
 }
-.item4 {
-  grid-area: footer;
+#red {
+  color: tomato;
 }
-p {
-    padding:0 10px;
+#green {
+  color: green;
 }
-body {
-    margin: 0;
-  display: grid;
-  grid-template-areas:
-    "header header header header"
-    "main main main sidebar"
-    "footer footer footer footer";
+#blue {
+  color: rgb(148, 148, 255);
+}
+#ski,
+#basketball,
+#svømming {
+  padding: 50px;
 }
