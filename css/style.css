@@ -36,3 +36,6 @@
 #svømming {
   padding: 50px;
 }
+.events {
+  display: list-item;
+}
